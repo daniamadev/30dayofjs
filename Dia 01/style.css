@@ -1,0 +1,28 @@
+body {
+  background: url("./img/img.jpg") no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.key {
+  border: 1px solid #cecece;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  transition: all 0.07s;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #cecece;
+  box-shadow: 0 0 10px #cecece;
+}
