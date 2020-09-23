@@ -1,13 +1,12 @@
 body {
-  background: url("./img/img.jpg") no-repeat;
+  background: url('./img/img.jpg');
   background-size: cover;
-  z-index: -1;
 }
 
 .keys {
-  display: flex;
   align-items: center;
   justify-content: center;
+  display: flex;
   height: 100vh;
 }
 
